@@ -20,6 +20,15 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
  */
 
 
+int N;
+int rstar;
+double fp;
+int numberOfExoPlantes;
+double fl;
+double fi;
+double fc;
+int L;
+
 
     }
 
