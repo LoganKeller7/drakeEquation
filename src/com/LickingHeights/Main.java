@@ -57,6 +57,8 @@ fi = keyboard.nextInt();
 System.out.println("give a percentage between 10-20 that will be able to communicate");
 fc = keyboard.nextInt();
 
+System.out.println("Give a number 1,000 - 100,000,000 years that the communicative phase will last");
+L = keyboard.nextInt();
 
 N = rStar * fp * numberOfExoPlanets * fl *fi * fc * L;
 
