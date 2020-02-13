@@ -48,6 +48,12 @@ fp = keyboard.nextInt();
 System.out.println("give a number 1-5 (per star there will be 1-5 planets capable of developing life)");
 numberOfExoPlanets = keyboard.nextInt();
 
+System.out.println("give a fraction where those planets will develop life");
+fl = keyboard.nextInt();
+
+
+
+
 N = rStar * fp * numberOfExoPlanets * fl *fi * fc * L;
 
 
