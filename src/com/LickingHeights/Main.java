@@ -51,6 +51,8 @@ numberOfExoPlanets = keyboard.nextInt();
 System.out.println("give a fraction where those planets will develop life");
 fl = keyboard.nextInt();
 
+System.out.println("Give a fraction of those living species will develop intelligence");
+fi = keyboard.nextInt();
 
 
 
