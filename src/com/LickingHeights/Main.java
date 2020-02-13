@@ -29,6 +29,9 @@ double fi;
 double fc;
 int L;
 
+N = rstar * fp * numberOfExoPlantes * fl *fi * fc * L;
+
+System.out.println("The number of intelligent species that are out there that can communicate with us is: " + N);
 
     }
 
