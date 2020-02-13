@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,9 +31,18 @@ double fi;
 double fc;
 int L;
 
+Scanner keyboard;
+keyboard = new Scanner (System.in);
+
 N = rstar * fp * numberOfExoPlantes * fl *fi * fc * L;
 
 System.out.println("The number of intelligent species that are out there that can communicate with us is: " + N);
+
+System.out.println("" + rstar);
+
+
+
+
 
     }
 
