@@ -28,7 +28,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 int N;
 int rStar;
 double fp;
-int numberOfExoPlantes;
+int numberOfExoPlanets;
 double fl;
 double fi;
 double fc;
@@ -45,10 +45,10 @@ rStar = keyboard.nextInt();
 System.out.println("Give a fraction between 1/5 and 1/2, 1/5 to 1/2 of all stars will have planets");
 fp = keyboard.nextInt();
 
+System.out.println("give a number 1-5 (per star there will be 1-5 planets capable of developing life)");
+numberOfExoPlanets = keyboard.nextInt();
 
-
-
-N = rStar * fp * numberOfExoPlantes * fl *fi * fc * L;
+N = rStar * fp * numberOfExoPlanets * fl *fi * fc * L;
 
 
 System.out.println("The number of intelligent species that are out there that can communicate with us is: " + N);
