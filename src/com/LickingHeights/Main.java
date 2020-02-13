@@ -42,6 +42,10 @@ keyboard = new Scanner (System.in);
 System.out.println("How many stars have been formed (1 per year)");
 rStar = keyboard.nextInt();
 
+System.out.println("Give a fraction between 1/5 and 1/2, 1/5 to 1/2 of all stars will have planets");
+fp = keyboard.nextInt();
+
+
 
 
 N = rStar * fp * numberOfExoPlantes * fl *fi * fc * L;
