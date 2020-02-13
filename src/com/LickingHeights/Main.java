@@ -54,6 +54,8 @@ fl = keyboard.nextInt();
 System.out.println("Give a fraction of those living species will develop intelligence");
 fi = keyboard.nextInt();
 
+System.out.println("give a percentage between 10-20 that will be able to communicate");
+fc = keyboard.nextInt();
 
 
 N = rStar * fp * numberOfExoPlanets * fl *fi * fc * L;
