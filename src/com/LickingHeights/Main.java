@@ -22,8 +22,11 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
  */
 
 
+
+
+
 int N;
-int rstar;
+int rStar;
 double fp;
 int numberOfExoPlantes;
 double fl;
@@ -31,14 +34,22 @@ double fi;
 double fc;
 int L;
 
+
 Scanner keyboard;
 keyboard = new Scanner (System.in);
 
-N = rstar * fp * numberOfExoPlantes * fl *fi * fc * L;
+
+System.out.println("How many stars have been formed (1 per year)");
+rStar = keyboard.nextInt();
+
+
+
+N = rStar * fp * numberOfExoPlantes * fl *fi * fc * L;
+
 
 System.out.println("The number of intelligent species that are out there that can communicate with us is: " + N);
 
-System.out.println("" + rstar);
+
 
 
 
